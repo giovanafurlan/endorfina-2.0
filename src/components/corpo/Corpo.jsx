@@ -2,6 +2,7 @@ import React from 'react'
 import fundo from '../../img/fundo.png'
 import fundo2 from '../../img/fundo2.png'
 import fundo3 from '../../img/fundo3.png'
+import hobbies from '../../img/hobbies.png'
 import './Corpo.css'
 
 export default function Corpo() {
@@ -32,11 +33,11 @@ export default function Corpo() {
                </p>
             </div>
 
-            {/* <div className= "imagem">
+            <div className= "imagem">
                <figure>
                   <img src= {hobbies}></img>
                </figure>
-            </div> */}
+            </div>
          </section>
       </>
    )

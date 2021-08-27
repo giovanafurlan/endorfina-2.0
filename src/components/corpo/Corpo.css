@@ -1,5 +1,3 @@
-
-
 section{
     display: flex;
     flex-direction: column;
@@ -10,7 +8,6 @@ section{
 }
 
 .texto p{
-    margin: 20px;
     text-align: justify;
     margin-top: 20px;
 }
@@ -30,4 +27,11 @@ section{
 
 .texto img{
     width: 200px;
+}
+
+.imagem img{
+    width: 70%;
+    margin-top: -30px;
+    margin-left: 180px;
+    margin-bottom: 30px;
 }
