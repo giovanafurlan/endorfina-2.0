@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.menu{
+    background-color: #0078b3;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 1% 0 1%;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #62ccff;
+}
+
+.menu .cadastro{
+    color: #0078b3;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.menu .cadastro:hover{
+    background-color: #62ccff;
+}

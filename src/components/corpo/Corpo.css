@@ -1,0 +1,33 @@
+
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    height: 300px;
+}
+
+.texto p{
+    margin: 20px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.texto .titulo{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    color: #0078b3;
+}
+
+.texto .ansiedade{
+    text-align: center;
+    font-size: 30px;
+    color: #0078b3;
+}
+
+.texto img{
+    width: 200px;
+}
