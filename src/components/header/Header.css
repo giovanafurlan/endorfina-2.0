@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
 .menu{
     background-color: #0078b3;
+    height: 5vh;
 }
 
 .menu ul{
@@ -15,24 +16,50 @@
     flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
-    margin: 1% 0 1%;
 }
 
 .menu a{
     color: white;
     text-decoration: none;
+    margin-bottom: 5px;
 }
 
-.menu a:hover{
-    color: #62ccff;
+
+.menu .opcao:hover{
+    color: #f8f672;
+    text-decoration: underline;
 }
 
 .menu .cadastro{
     color: #0078b3;
     background-color: white;
-    text-transform: uppercase;
+    text-align: center;
 }
 
-.menu .cadastro:hover{
+.cadastro {
+    width: 8vw;
+    height: 3vh;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
     background-color: #62ccff;
+}
+
+.cadastro:hover {
+    background: #f8f672;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 560px){
+    .menu{
+        width: auto;
+        font-size: 8px;
+    }
+    .menu .cadastro{
+        font-size: 8px;
+    }
 }

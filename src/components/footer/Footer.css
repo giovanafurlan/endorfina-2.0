@@ -1,0 +1,19 @@
+footer {
+    background: url("../../img/bg.jpg");
+    display: flex;
+    flex-direction: row;
+    padding: 0.2vh;
+}
+
+footer .copyright {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-right: 10vw;
+}
+
+footer a{
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+}

@@ -3,6 +3,9 @@ import fundo from '../../img/fundo.png'
 import fundo2 from '../../img/fundo2.png'
 import fundo3 from '../../img/fundo3.png'
 import hobbies from '../../img/hobbies.png'
+import esportes from '../../img/esportes.jpg'
+import Header from '../header/Header'
+
 import './Corpo.css'
 
 export default function Corpo() {
@@ -10,6 +13,8 @@ export default function Corpo() {
    return (
       <>
          <section>
+            {/* <h1><img src= {esportes}/></h1> */}
+
             <div className="texto">
                <h2 className= "titulo">Endorfina</h2>
                <p> <img src= {fundo} align="left"/><br></br>
@@ -38,6 +43,11 @@ export default function Corpo() {
                   <img src= {hobbies}></img>
                </figure>
             </div>
+
+            <div className= "btn">
+               <button href= {Header} className="participe">Participe</button>
+            </div>
+
          </section>
       </>
    )

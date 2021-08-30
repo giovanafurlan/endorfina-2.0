@@ -7,15 +7,13 @@ export default function Header() {
         <>
             <header>
                 <div className="menu">
-                    <hr></hr>
                     <ul>
-                        <a href="#"><li>Home</li></a>
-                        <a href="#"><li>Ansiedade</li></a>
-                        <a href="#"><li>Hobbies</li></a>
-                        <a href="#" className="cadastro"><li>Login</li></a>
-                        <a href="#" className="cadastro"><li>Cadastro</li></a>
+                        <a href="#" className="opcao"><li>HOME</li></a>
+                        <a href="#" className="opcao"><li>ANSIEDADE</li></a>
+                        <a href="#" className="opcao"><li>HOBBIES</li></a>
+                        <a href="#" className="cadastro"><li>LOGIN</li></a>
+                        <a href="#" className="cadastro"><li>CADASTRO</li></a>
                     </ul>
-                    <hr></hr>
                 </div>
             </header>
         </>
