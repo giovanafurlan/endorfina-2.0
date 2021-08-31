@@ -55,7 +55,8 @@ export default function Corpo() {
             <div className="texto">
                <h2 className= "ansiedade">Patrica de Hobbies</h2>
                <p> <img src= {fundo3} align="left"/><br></br><br></br>
-               Um hobby funciona como uma válvula de escape para as tensões e preocupações do dia a dia, mas é uma medida imprescindível para quem tem algum quadro envolvendo ansiedade, de transtorno de ansiedade generalizada à sensação natural que atinge todo e qualquer ser humano em circunstâncias estressantes.
+               Um hobby funciona como uma válvula de escape para as tensões e preocupações do dia a dia, mas é uma medida imprescindível para quem tem algum quadro envolvendo ansiedade, de transtorno de ansiedade generalizada à sensação natural que atinge todo e qualquer ser humano em circunstâncias estressantes.<br></br>
+               <br></br>A plataforma conta com muitos tipos de hobbies, alguns exemplos dos mais procurados são: Dança, Artesanato, Culinária, Musculação, Meditação, Instrumentos Musicais, e Idiomas, todos com profissionais especializados, lecionando, e ajudando com sua saúde mental.
                </p>
             </div>
 
