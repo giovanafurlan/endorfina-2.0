@@ -2,7 +2,6 @@ footer {
     background: url("../../img/bg.jpg");
     display: flex;
     flex-direction: row;
-    padding: 0.2vh;
 }
 
 footer .copyright {
@@ -15,5 +14,5 @@ footer .copyright {
 footer a{
     font-size: 30px;
     color: white;
-    margin: 10px;
+    margin: 0 10px 0 10px;
 }
